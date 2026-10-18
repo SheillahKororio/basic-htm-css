@@ -1,0 +1,76 @@
+/* General Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Header Styling */
+header {
+    background-color: #4c9f5b;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: #007bff 3px solid;
+}
+
+header h1 {
+    margin: 0;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.logo {
+    max-width: 100px; 
+    height: auto;
+    display: block;
+    margin: 10px auto;
+    border-radius: 50%;
+}
+
+nav ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    color: #d5cf29ba; 
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(20, 238, 52, 0.1);
+}
+
+main h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #8afb9b;
+    color: #db2525;
+}
